@@ -9,8 +9,11 @@ import { NavLink } from 'react-router-dom'
 
 const StyledLi = styled.li`
     transition: ease 0.1s;
-    &:hover {
-        transform: scale(1.05);
+
+    @media (max-width: ${variables.smartphone}) {
+        border-bottom: 2px solid ${variables.green};
+        width: 100%;
+        padding-bottom: 1rem;
     }
 `
 
@@ -22,6 +25,13 @@ const StyledNavLink = styled(NavLink)`
 
     &.active {
         text-shadow: 0px 0px 5px ${variables.white};
+    }
+
+    @media (max-width: ${variables.tablet}) {
+        font-size: 1.1rem;
+    }
+    @media (max-width: ${variables.smartphone}) {
+        color: ${variables.green};
     }
 `
 
