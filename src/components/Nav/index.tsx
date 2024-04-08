@@ -15,7 +15,6 @@ const Nav = ({ display, setNavDisplay }: NavProps) => {
             <ul>
                 <HeaderNavLink to='/'>Home</HeaderNavLink>
                 <HeaderNavLink to='/produtos'>Produtos</HeaderNavLink>
-                <HeaderNavLink to='/sobre'>Sobre</HeaderNavLink>
             </ul>
             <div className='overlay' onClick={() => setNavDisplay(false)}></div>
         </StyledNav>

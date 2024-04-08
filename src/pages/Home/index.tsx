@@ -1,11 +1,14 @@
 // componentes
-import Banner from '@/components/Banner'
+import Slide from '@/components/Slide'
+import Container from '@/components/Container'
 
 const Home = () => {
     return (
         <>
-            <Banner />
-            Home
+            <Slide />
+            <Container>
+                <h2>Sobre o Coffee shops Tia Rosa</h2>
+            </Container>
         </>
     )
 }
