@@ -12,7 +12,7 @@ interface ContainerProps {
 }
 
 const Container = ({ children }: ContainerProps) => {
-    return <StyledSection>{children}</StyledSection>
+    return <StyledSection className='container'>{children}</StyledSection>
 }
 
 export default Container

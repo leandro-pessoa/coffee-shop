@@ -51,7 +51,7 @@ const StyledHeader = styled.header`
     }
 
     @media (max-width: ${variables.smallSmartphone}) {
-        padding: .4rem 1rem;
+        padding: 0.4rem 1rem;
     }
 `
 

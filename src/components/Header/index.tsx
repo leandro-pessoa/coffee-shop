@@ -27,6 +27,10 @@ const Header = () => {
         setNavDisplay(false)
     }, [pathname])
 
+    window.addEventListener('scroll', () => {
+        if (navDisplay) setNavDisplay(false)
+    })
+
     return (
         <StyledHeader>
             <div className='menu-logo'>
