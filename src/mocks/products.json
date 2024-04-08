@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Latte",
+        "img": "/images/products/latte.webp",
+        "description": "De origem italiana, o latte é um clássico composto por espresso, duas doses de leite vaporizado e uma camada fina de espuma de leite."
+    },
+    {
+        "id": 1,
+        "name": "Espresso",
+        "img": "/images/products/espresso.webp",
+        "description": "Concentrado e de rápido preparo, o espresso chega na sua mesa em quetão de segundos."
+    },
+    {
+        "id": 2,
+        "name": "Pingado",
+        "img": "/images/products/cafe-pingado.webp",
+        "description": "O famoso café com leite não pode faltar, em que o leite é adicionado lentamente ao café coado."
+    },
+    {
+        "id": 3,
+        "name": "Mocha",
+        "img": "/images/products/mocha.webp",
+        "description": "O mocha ou mocaccino é uma verdadeira explosão de sabor, servido em camadas de espresso, leite vaporizado, espuma de leite e chocolate."
+    },
+    {
+        "id": 4,
+        "name": "Frappuccino",
+        "img": "/images/products/frappuccino.webp",
+        "description": "Leva sorvete e espresso na base da sua composição, resultando em um milk-shake de café."
+    },
+    {
+        "id": 5,
+        "name": "Cold brew",
+        "img": "/images/products/cold-brew.webp",
+        "description": "Com cerca de 70% menos acidez que os cafés quentes, possuí uma doçura inconfundível e um aroma ainda mais exclusivo."
+    },
+    {
+        "id": 6,
+        "name": "Cappuccino",
+        "img": "/images/products/cappuccino.webp",
+        "description": "Ele leva um terço de espresso, um terço de leite vaporizado e um terço de espuma de leite - densa e cremosíssima."
+    },
+    {
+        "id": 7,
+        "name": "Iced coffee",
+        "img": "/images/products/iced.webp",
+        "description": "O café gelado ou iced coffee é uma bebida preparada em banho-maria e depois é adicionado gelo para refrescar."
+    }
+]

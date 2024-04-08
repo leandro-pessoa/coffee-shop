@@ -11,6 +11,19 @@ const StyledSection = styled.section`
         font-size: 3rem;
         font-family: ${variables.secondaryFont};
     }
+
+    @media (max-width: ${variables.notebook}) {
+        margin: 3rem 8rem;
+    }
+    @media (max-width: ${variables.tablet}) {
+        margin: 3rem 5rem;
+    }
+    @media (max-width: ${variables.smartphone}) {
+        margin: 3rem;
+    }
+    @media (max-width: ${variables.smallSmartphone}) {
+        margin: 3rem 2rem;
+    }
 `
 
 export default StyledSection

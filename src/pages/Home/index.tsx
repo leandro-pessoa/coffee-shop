@@ -1,5 +1,5 @@
 // componentes
-import Slide from '@/components/Slide'
+import Slide from '@/pages/Home/Slide'
 import Container from '@/components/Container'
 
 const Home = () => {
