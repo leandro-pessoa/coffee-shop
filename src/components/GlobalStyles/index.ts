@@ -4,6 +4,8 @@ import { createGlobalStyle } from 'styled-components'
 // variáveis
 import { variables } from '@/variables'
 
+// estilos que serão aplicados ao projeto
+// incluindo o reset css, que remove estilos css padrão dos navegadores
 const GlobalStyles = createGlobalStyle`
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,

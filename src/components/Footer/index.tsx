@@ -10,31 +10,33 @@ import Container from '../Container'
 
 const Footer = () => {
     return (
+        // componente do footer
+        // contêm alguns links fictícios de redes sociais e o link para o meu github
         <StyledFooter>
             <Container>
                 <div className='social-media'>
                     <h3>Tia Rosa coffee shop</h3>
                     <ul>
                         <li>
-                            <a href='#'>
+                            <a href='#' aria-label='Siga a gente no x (antigo twitter)'>
                                 <FaXTwitter size={24} />
                                 <span>X</span>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='#' aria-label='Siga a gente no Instagram'>
                                 <FaInstagram size={24} />
                                 <span>Instagram</span>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='#' aria-label='Siga a gente no Youtube'>
                                 <FaYoutube size={24} />
                                 <span>Youtube</span>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='#' aria-label='Siga a gente no Facebook'>
                                 <FaFacebook size={24} />
                                 <span>Facebook</span>
                             </a>

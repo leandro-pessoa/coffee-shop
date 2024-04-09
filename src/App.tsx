@@ -5,7 +5,10 @@ import AppRoutes from './routes'
 const App = () => {
     return (
         <>
+            {/* estilos globais e o reset css */}
             <GlobalStyles />
+
+            {/* rotas da aplicação */}
             <AppRoutes />
         </>
     )

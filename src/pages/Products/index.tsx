@@ -5,6 +5,7 @@ import Container from '@/components/Container'
 
 const Products = () => {
     return (
+        // página de produtos, que contêm um banner e a lista de produtos
         <>
             <Banner />
             <Container>

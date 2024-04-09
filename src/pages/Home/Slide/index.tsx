@@ -5,12 +5,13 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 // imagens
-import banner1 from '/images/carousel/banner1.png'
-import banner2 from '/images/carousel/banner2.png'
-import banner3 from '/images/carousel/banner3.png'
+import banner1 from '/images/carousel/banner1.webp'
+import banner2 from '/images/carousel/banner2.webp'
+import banner3 from '/images/carousel/banner3.webp'
 
 const Slide = () => {
     return (
+        // componente que exibirá o carousel
         <Carousel
             autoPlay={true}
             infiniteLoop={true}

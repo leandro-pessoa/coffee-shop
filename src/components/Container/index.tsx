@@ -12,6 +12,7 @@ interface ContainerProps {
 }
 
 const Container = ({ children }: ContainerProps) => {
+    // esse componente tem a função de dar uma margem para que os elementos filhos não ocupem toda a tela
     return <StyledSection className='container'>{children}</StyledSection>
 }
 

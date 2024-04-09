@@ -6,8 +6,12 @@ import About from './About'
 
 const Home = () => {
     return (
+        // página inicial
         <>
+            {/* aqui está o carousel */}
             <Slide />
+
+            {/* e aqui está o container, que conterá a seção sobre e o newsletter */}
             <Container>
                 <About />
                 <NewsLetter />

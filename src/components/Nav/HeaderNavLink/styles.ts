@@ -24,7 +24,7 @@ const StyledNavLink = styled(NavLink)`
     font-weight: 300;
 
     &.active {
-        text-shadow: 0px 0px 5px ${variables.white};
+        border-bottom: 1px solid ${variables.white};
     }
 
     @media (max-width: ${variables.tablet}) {

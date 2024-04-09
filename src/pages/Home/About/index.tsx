@@ -3,6 +3,8 @@ import StyledSection from './styles'
 
 const About = () => {
     return (
+        // seção sobre
+        // contém apenas um título e textos de exemplo
         <StyledSection>
             <h2>Sobre o Coffee shops Tia Rosa</h2>
             <p>

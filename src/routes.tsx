@@ -8,6 +8,10 @@ import Products from './pages/Products'
 
 const AppRoutes = () => {
     return (
+        // aqui é possível visualizar as rotas que compõem a aplicação
+        // temos a rota home, que seria a página inicial
+        // e também a página de produtos
+        // a default page disponibiliza elementos que serão utilizados nas duas páginas (como o header e o footer)
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={ <DefaultPage /> }>

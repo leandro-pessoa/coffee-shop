@@ -11,6 +11,10 @@ interface NavProps {
 
 const Nav = ({ display, setNavDisplay }: NavProps) => {
     return (
+        // o nav tem dois modos
+        // o modo de telas maiores, que sempre será visível
+        // e o modo de telas de smartphone, em que pode ser alternado o display
+        // o overlay só irá aparecer quando o menu lateral estiver ativo e ao ser clicado nele, o menu some
         <StyledNav $display={display}>
             <ul>
                 <HeaderNavLink to='/'>Home</HeaderNavLink>
