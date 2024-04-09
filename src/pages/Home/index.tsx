@@ -2,13 +2,14 @@
 import Slide from '@/pages/Home/Slide'
 import Container from '@/components/Container'
 import NewsLetter from '@/components/NewsLetter'
+import About from './About'
 
 const Home = () => {
     return (
         <>
             <Slide />
             <Container>
-                <h2>Sobre o Coffee shops Tia Rosa</h2>
+                <About />
                 <NewsLetter />
             </Container>
         </>
