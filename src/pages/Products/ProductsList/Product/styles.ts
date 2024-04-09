@@ -33,9 +33,9 @@ const StyledLi = styled.li`
             h3 {
                 font-size: 1.3rem;
             }
-            
+
             p {
-                font-size: .9rem;
+                font-size: 0.9rem;
             }
         }
     }
@@ -48,7 +48,7 @@ const StyledLi = styled.li`
             padding: 0;
 
             p {
-                font-size: .8rem;
+                font-size: 0.8rem;
                 text-indent: 0;
             }
         }

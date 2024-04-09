@@ -40,11 +40,14 @@ const Header = () => {
         // uma div para dar espaçamento para o nav em telas maiores
         <StyledHeader>
             <div className='menu-logo'>
-                <button onClick={() => setNavDisplay(!navDisplay)} aria-label='Menu lateral'>
+                <button
+                    onClick={() => setNavDisplay(!navDisplay)}
+                    aria-label='Menu lateral'
+                >
                     <LuMenu size={30} color={variables.white} />
                 </button>
                 <StyledLink to='/'>
-                    <img src={logo} alt='Logo do Tia Rosa coffee'/>
+                    <img src={logo} alt='Logo do Tia Rosa coffee' />
                     <h1>Tia Rosa coffee</h1>
                 </StyledLink>
             </div>

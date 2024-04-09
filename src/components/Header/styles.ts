@@ -69,7 +69,7 @@ const StyledLink = styled(Link)`
         font-family: ${variables.secondaryFont};
     }
 
-    @media (max-width: ${variables.tablet}){
+    @media (max-width: ${variables.tablet}) {
         img {
             width: 70px;
         }
@@ -78,7 +78,7 @@ const StyledLink = styled(Link)`
         }
     }
 
-    @media (max-width: ${variables.smartphone}){
+    @media (max-width: ${variables.smartphone}) {
         gap: 1rem;
 
         img {
@@ -88,7 +88,7 @@ const StyledLink = styled(Link)`
             font-size: 2.3rem;
         }
     }
-    @media (max-width: ${variables.smallSmartphone}){
+    @media (max-width: ${variables.smallSmartphone}) {
         h1 {
             font-size: 2rem;
         }

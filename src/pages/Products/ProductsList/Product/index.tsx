@@ -11,7 +11,7 @@ interface ProductProps {
 const Product = ({ name, img, description }: ProductProps) => {
     return (
         // irá renderizar cada produto da lista
-        // contêm imagem, título e descrição 
+        // contêm imagem, título e descrição
         // cada elemento desse é passado por props
         <StyledLi>
             <img src={img} alt={name} />

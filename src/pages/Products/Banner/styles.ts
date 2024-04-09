@@ -13,7 +13,7 @@ const StyledSection = styled.section`
     background-size: cover;
     height: 200px;
     padding: 2rem;
-    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, .5);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
 
     h2 {
         font-family: ${variables.secondaryFont};

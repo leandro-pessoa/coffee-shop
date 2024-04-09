@@ -1,4 +1,3 @@
-
 // elementos que serão utilizados globalmente pelo css
 const variables = {
     // fontes

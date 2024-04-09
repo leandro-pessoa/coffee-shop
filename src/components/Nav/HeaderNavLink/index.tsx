@@ -15,7 +15,7 @@ const HeaderNavLink = ({ to, children }: HeaderNavLinkProps) => {
     return (
         // componente para os links de navegação do nav
         // recebe o caminho que ele o redirecionará e o elemento filho, que pode ser texto ou elementos react
-        // o link recebe um estilo diferente quando o usuário está na sua rota 
+        // o link recebe um estilo diferente quando o usuário está na sua rota
         <StyledLi>
             <StyledNavLink
                 to={to}

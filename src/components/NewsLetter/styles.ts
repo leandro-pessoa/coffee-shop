@@ -18,17 +18,17 @@ const StyledSection = styled.section`
 
     label {
         display: block;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
     }
 
     input {
         border: none;
         outline: none;
-        padding: .2rem 1rem;
+        padding: 0.2rem 1rem;
         font-size: 1.1rem;
         font-family: ${variables.primaryFont};
         width: 50%;
-        margin-right: .3rem;
+        margin-right: 0.3rem;
 
         &:focus {
             outline: 2px solid ${variables.green};
@@ -40,9 +40,9 @@ const StyledSection = styled.section`
         color: ${variables.white};
         border: none;
         font-size: 1.1rem;
-        padding: .2rem 1rem;
+        padding: 0.2rem 1rem;
         font-family: ${variables.primaryFont};
-        transition: .1s;
+        transition: 0.1s;
 
         &:hover {
             cursor: pointer;
@@ -67,7 +67,7 @@ const StyledSection = styled.section`
             font-size: 1.2rem;
         }
         label {
-            font-size: .9rem;
+            font-size: 0.9rem;
         }
         input {
             font-size: 1rem;
@@ -82,11 +82,11 @@ const StyledSection = styled.section`
             font-size: 1.1rem;
         }
         label {
-            font-size: .8rem;
+            font-size: 0.8rem;
         }
         input {
             width: calc(100% - 32px); /* padding */
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
         }
     }
 `

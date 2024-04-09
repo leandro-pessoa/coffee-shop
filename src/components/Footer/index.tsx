@@ -18,7 +18,10 @@ const Footer = () => {
                     <h3>Tia Rosa coffee shop</h3>
                     <ul>
                         <li>
-                            <a href='#' aria-label='Siga a gente no x (antigo twitter)'>
+                            <a
+                                href='#'
+                                aria-label='Siga a gente no x (antigo twitter)'
+                            >
                                 <FaXTwitter size={24} />
                                 <span>X</span>
                             </a>

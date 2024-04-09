@@ -14,9 +14,9 @@ const AppRoutes = () => {
         // a default page disponibiliza elementos que serão utilizados nas duas páginas (como o header e o footer)
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={ <DefaultPage /> }>
-                    <Route index element={ <Home /> }/>
-                    <Route path='produtos' element={ <Products /> }/>
+                <Route path='/' element={<DefaultPage />}>
+                    <Route index element={<Home />} />
+                    <Route path='produtos' element={<Products />} />
                 </Route>
             </Routes>
         </BrowserRouter>
